@@ -29,7 +29,7 @@ datum
 		var/mix_phrase = "The solution begins to bubble."
 		var/mix_sound = 'sound/effects/bubbles.ogg'
 		var/drinkrecipe = 0
-		var/consume_all = 0 //If set to 1, the recipe will consume ALL of its components instead of just proportional parts.
+		var/consume_all = 0 //If set to 1, the recipe will consume ALL of its components instead of just proportional parts. 
 
 		proc/on_reaction(var/datum/reagents/holder, var/created_volume)
 			return

@@ -24,33 +24,33 @@
 				src = null
 				var/target = input("Select the saved adventure zone to load.", "Saved zone upload", null) as null|file
 
-				// fuck you you fucking useless piece of goddamn shit go away fuck you fuck shit bollocks
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck duck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
-				// fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
+				// butterfly you you butterflying useless piece of goddamn shit go away butterfly you butterfly shit bollocks
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly duck butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
+				// butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly butterfly
 				if (!target)
 					return
 				var/savefile/F = new /savefile("adventure/ADV_LOAD_[usr.client.ckey]")
-				// fuck you
+				// butterfly you
 				F.dir.len = 0
-				// and fuck you too
+				// and butterfly you too
 				F.eof = -1
 				// and ESPECIALLY YOU.
 				F << null
@@ -75,7 +75,7 @@
 					boutput(usr, "<span style=\"color:red\">Size error: [w]x[h]</span>")
 					return
 				if (T.z == 0)
-					boutput(usr, "<span style=\"color:red\">Spatial error: cannot paste onto Z 0 (how the actual fuck did you manage to get this error???)</span>")
+					boutput(usr, "<span style=\"color:red\">Spatial error: cannot paste onto Z 0 (how the actual butterfly did you manage to get this error???)</span>")
 					return
 				if (!locate(basex + w, basey + h, T.z))
 					boutput(usr, "<span style=\"color:red\">Spatial error: the pasted area ([w]x[h]) will not fit on the map.</span>")
